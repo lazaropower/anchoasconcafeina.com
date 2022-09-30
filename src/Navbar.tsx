@@ -27,7 +27,7 @@ export default () => {
                                 />
                             </a>
                             <div className="-mr-2 flex items-center md:hidden">
-                                <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500">
                                     <span className="sr-only">Abrir menú</span>
                                     <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                                 </Popover.Button>
@@ -67,7 +67,7 @@ export default () => {
                                 />
                             </div>
                             <div className="-mr-2">
-                                <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500">
                                     <span className="sr-only">Close main menu</span>
                                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                                 </Popover.Button>
