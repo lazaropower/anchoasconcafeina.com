@@ -28,6 +28,36 @@
   color: #61dafb;
 }
 
+.home-main {
+  background-color: #282c34;
+}
+
+.primary-yellow {
+  color: #fbb03b;
+}
+
+.primary-yellow-bg-light {
+  background-color: #f3ebdd;
+}
+
+.primary-yellow-bg-light-darker {
+  background: #e9b055;
+}
+
+.primary-yellow-bg {
+  background-color: #fbb03b;
+}
+
+a:hover.primary-yellow-bg-dark {
+  /* background-color: #bc8020; */
+  background-color: black;
+}
+
+.black-and-white {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
