@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Wheel } from 'react-custom-roulette'
+import { Link } from 'react-router-dom';
 import Navbar from '../Navbar';
 
 const data = [
@@ -44,12 +45,12 @@ export default () => {
             </button>
           </div>
           <div className="ml-3 inline-flex rounded-md shadow">
-            <a
-              href="/"
+            <Link
+              to='/'
               className="inline-flex items-center justify-center rounded-md border border-transparent px-5 py-3 text-base font-medium primary-yellow-bg text-black hover:bg-yellow-600"
             >
               Volver atrás
-            </a>
+            </Link>
           </div>
         </div>
       </div>

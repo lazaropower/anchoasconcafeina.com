@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from './assets/logo-footer.png'
 
 export default () => {
@@ -12,13 +13,13 @@ export default () => {
                 </a>
                 <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 light:text-gray-400">
                     <li>
-                        <a href="/" className="mr-4 hover:underline md:mr-6 ">Inicio</a>
+                        <Link to="/" className="mr-4 hover:underline md:mr-6 ">Inicio</Link>
                     </li>
                     <li>
-                        <a href="/roulette" className="mr-4 hover:underline md:mr-6">Ruleta</a>
+                        <Link to="/roulette" className="mr-4 hover:underline md:mr-6">Ruleta</Link>
                     </li>
                     <li>
-                        <a href="/coupon" className="mr-4 hover:underline md:mr-6 ">Cupón</a>
+                        <Link to="/coupon" className="mr-4 hover:underline md:mr-6 ">Cupón</Link>
                     </li>
                     <li>
                         <a href="https://github.com/lazaropower/anchoasconcafeina.com" className="hover:underline">Código</a>

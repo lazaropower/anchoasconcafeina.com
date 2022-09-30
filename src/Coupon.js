@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar';
 import ScratchCard from 'react-scratch-coupon';
-import couponCover from './assets/cupon-cover.png';
+import couponCover from './assets/cupon-cover3.png';
+import { Link } from 'react-router-dom';
 
 const getCoupon = () => {
     const picaBillete = Math.random() < 0.25;
@@ -13,7 +14,7 @@ const getCoupon = () => {
 
 const renderCoupon = () => {
     return (
-        <ScratchCard width={600} height={300} cover={couponCover}>
+        <ScratchCard cover={couponCover}>
             <form className="form" >
                 <h1 className="text-2xl text-semibold pt-6">{getCoupon()}</h1>
             </form>
@@ -40,12 +41,12 @@ export default () => {
                         </a>
                     </div>
                     <div className="ml-3 inline-flex rounded-md shadow">
-                        <a
-                            href="/"
+                        <Link
+                            to="/"
                             className="inline-flex items-center justify-center rounded-md border border-transparent px-5 py-3 text-base font-medium primary-yellow-bg text-black hover:bg-yellow-600"
                         >
                             Volver atrás
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

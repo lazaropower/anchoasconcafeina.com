@@ -3,6 +3,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Fragment } from 'react'
 import logo from './assets/logo.png';
+import { Link } from 'react-router-dom';
 
 const navigation = [
     { name: 'Inicio', href: '/' },
@@ -35,9 +36,9 @@ export default () => {
                     </div>
                     <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
                         {navigation.map((item) => (
-                            <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900 hover:underline">
+                            <Link key={item.name} to={item.href} className="font-medium text-gray-500 hover:text-gray-900 hover:underline">
                                 {item.name}
-                            </a>
+                            </Link>
                         ))}
                     </div>
                 </nav>
