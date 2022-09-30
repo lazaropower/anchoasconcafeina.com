@@ -24,7 +24,7 @@ export default () => {
                                 <span className="block primary-yellow xl:inline">cafeína.</span>
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                                Si a nosotros nos dieran la oportunidad de ser una cabra famosa por un día, tenemos muy claro qué cabra famosa nos gustaría ser: <b>Sin ánimo de lucro, de la Diana.</b>.
+                                Si a nosotros nos dieran la oportunidad de ser una cabra famosa por un día, tenemos muy claro qué cabra famosa nos gustaría ser: <b>Sin ánimo de lucro, de la Diana</b>.
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">
