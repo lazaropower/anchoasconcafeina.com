@@ -6,7 +6,7 @@ export default () => {
     return (
         <footer className="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 light:bg-gray-900">
             <div className="sm:flex sm:items-center sm:justify-between">
-                <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0">
+                <a href="/" className="flex items-center mb-4 sm:mb-0">
                         <img src={logo} className="mr-3 h-20" alt="Logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap light:text-white text-gray-900">Anchoas con <b>cafeína</b>.</span>
                 </a>
