@@ -1,6 +1,6 @@
 import React from "react"
-import Navbar from "./Navbar"
-import hero from "./assets/hero.png"
+import Navbar from "../Navbar"
+import hero from "../assets/hero.png"
 
 export default () => {
     return (

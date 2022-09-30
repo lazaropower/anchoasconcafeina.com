@@ -4,11 +4,6 @@ import logo from './assets/logo-footer.png'
 export default () => {
     const currentYear = new Date().getFullYear();
     return (
-        // <div classNameName="text-center p-6">
-        //     <span>{currentYear} - </span>
-        //     <span classNameName="text-black-600 font-semibold">Fiestas de Bullas 🐟☕</span>
-        //     <p>Developed by <b>Lázaro Amor</b>. Check out the code <a className="text-underline" href="https://github.com/lazaropower/anchoasconcafeina">here.</a></p>
-        // </div>
         <footer className="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 light:bg-gray-900">
             <div className="sm:flex sm:items-center sm:justify-between">
                 <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0">

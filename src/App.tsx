@@ -1,10 +1,10 @@
 import react from 'react';
 import './App.css';
-import Roulette from './Roulette';
+import Roulette from './roulette/Roulette';
 import Coupon from './Coupon';
 import { Routes, Route } from 'react-router-dom';
 import Footer from './Footer';
-import Home from './Home';
+import Home from './home/Home';
 
 
 function App() {

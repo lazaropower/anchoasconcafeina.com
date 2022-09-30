@@ -35,7 +35,7 @@ export default () => {
                     </div>
                     <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
                         {navigation.map((item) => (
-                            <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                            <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900 hover:underline">
                                 {item.name}
                             </a>
                         ))}
