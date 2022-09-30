@@ -2,21 +2,32 @@ import React from 'react';
 import Navbar from './Navbar';
 import ScratchCard from 'react-scratch-coupon';
 import couponCover from './assets/cupon-cover3.png';
+import picabillete from './assets/picabillete.jpg';
+import nopicabillete from './assets/nopicabillete.jpg';
 import { Link } from 'react-router-dom';
 
-const getCoupon = () => {
-    const picaBillete = Math.random() < 0.25;
+const picaBillete = Math.random() < 0.25;
+
+const getCouponText = () => {
     if (picaBillete) {
         return 'SI vas a picar billete 😢';
     }
     return 'NO vas a picar billete 😁';
 }
 
+const renderPicaBillete = () => {
+    if (picaBillete) {
+        return <img width="170" height="170" src={picabillete}></img>
+    }
+    return <img width="170" height="140" src={nopicabillete}></img>;
+}
+
 const renderCoupon = () => {
     return (
         <ScratchCard cover={couponCover}>
             <form className="form" >
-                <h1 className="text-2xl text-semibold pt-6">{getCoupon()}</h1>
+                <h1 className="text-2xl text-semibold pt-6">{getCouponText()}</h1>
+                {renderPicaBillete()}
             </form>
         </ScratchCard>
     )

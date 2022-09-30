@@ -4,18 +4,18 @@ import { Link } from 'react-router-dom';
 import Navbar from '../Navbar';
 
 const data = [
-  { option: 'Chupito a elegir con tu pana', style: { backgroundColor: 'green', textColor: 'black' }},
   { option: 'Arriquitáun a grito pelao', style: { backgroundColor: 'white', textColor: 'black' }},
+  { option: 'Chupito con tu pana', style: { backgroundColor: 'green', textColor: 'black' }},
+  { option: 'Hacer un Hidalgo', style: { backgroundColor: 'black', textColor: 'white' }},
+  { option: 'Premio especial Barraca 8', style: { backgroundColor: 'yellow', textColor: 'black' }},
   { option: 'Bailar una sevillana', style: { backgroundColor: 'blue', textColor: 'white' }},
   { option: 'Preguntar en barraca 8 por Miluca', style: { backgroundColor: 'red', textColor: 'white' }},
-  { option: 'Anchoas con cafeína', style: { backgroundColor: 'purple', textColor: 'white' }},
-  { option: 'Anchoas con cafeína', style: { backgroundColor: 'brown', textColor: 'white' }},
-  { option: 'Anchoas con cafeína', style: { backgroundColor: 'grey', textColor: 'white' }},
+  { option: 'Subir foto con tu crush', style: { backgroundColor: 'brown', textColor: 'white' }},
+  { option: 'Chupito con tu pana', style: { backgroundColor: 'green', textColor: 'black' }},
   { option: 'Hacer un Hidalgo', style: { backgroundColor: 'black', textColor: 'white' }},
-  { option: 'Anchoas con cafeína', style: { backgroundColor: 'yellow', textColor: 'black' }},
-  { option: 'Anchoas con cafeína', style: { backgroundColor: 'green', textColor: 'black' }},
-  { option: 'Anchoas con cafeína', style: { backgroundColor: 'green', textColor: 'black' }},
-  { option: 'Anchoas con cafeína', style: { backgroundColor: 'green', textColor: 'black' }},
+  { option: 'Premio especial Barraca 8', style: { backgroundColor: 'yellow', textColor: 'black' }},
+  { option: '10 flexiones', style: { backgroundColor: 'blue', textColor: 'white' }},
+  { option: 'Conseguir pegatina', style: { backgroundColor: 'red', textColor: 'white' }},
 ]
 
 export default () => {
@@ -59,7 +59,7 @@ export default () => {
           mustStartSpinning={mustSpin}
           prizeNumber={prizeNumber}
           data={data}
-          fontSize={12}
+          fontSize={13}
 
           onStopSpinning={() => {
             setMustSpin(false);
